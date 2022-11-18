@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="i-logo" style="width:20px;" class="rounded-pill">
+            Sheesh
+        </a>
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link active" href="#home"> Home </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="donate.html"> Donate </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#about"> About us </a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#logout"> Log Out  </a></li>
+            </ul>
+        </div>
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+    </nav>
+    <br>
+    <div class="container-fluid sticky-top">
+        <div class="alert alert-warning alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong> Attention, </strong> vous utilisez une version obsolète.
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h1 class="display-1 justify-content-center"> Bienvenue sur notre site </h1>
+        <p> ESTI est une école d'informatique de renom créee en 2016 par le GOTICOM.</p>
+        <p> Elle compte à ce jour de nombreux diplômés. </p>
+        <p> Sa particularité est de proposer une formation en alternance. </p>
+        <p> ESTI est une école d'informatique de renom créee en 2016 par le GOTICOM.</p>
+        <div class="row">
+            <div class="col-sm-6 p-4"> 
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" width="640" height="360" src="computer.jpg" alt="computer">
+                    <div class="card-body">
+                        <h4> Nos filières </h4>
+                        <p> L'ESTI propose de nombreux filières. </p>
+                        <a class="btn btn-primary" href="#">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 p-4"> 
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" width="640" height="360" src="image1.jpg" alt="computer">
+                    <div class="card-body">
+                        <h4> Nos modules </h4>
+                        <p> Des modules y sont enseignées. </p>
+                        <a class="btn btn-primary" href="#">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 p-4"> 
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" width="640" height="360" src="pc.jpg" alt="computer">
+                    <div class="card-body">
+                        <h4> Nos niveaux </h4>
+                        <p> De L1 jusqu'en M2. </p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                              Voir plus
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">L1</a></li>
+                              <li><a class="dropdown-item" href="#">L2</a></li>
+                              <li><a class="dropdown-item" href="#">L3</a></li>
+                              <li><a class="dropdown-item" href="#">M1</a></li>
+                              <li><a class="dropdown-item" href="#">M2</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 p-4"> 
+                <div class="card" style="width: 400px;">
+                    <img class="card-img-top" width="640" height="360" src="students_on_laptops.jpg" alt="computer">
+                    <div class="card-body">
+                        <h4> Nos offres </h4>
+                        <p> Parcourez les offres de formation. </p>
+                        <a class="btn btn-primary" href="#">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container p-5 my-5 border">
+        <h2 class="display-3"> Liste des admis pour l'année universitaire 2023 </h2>
+        <table class="table table-hover">
+            <caption> Par ordre décroissant </caption>
+            <thead>
+                <th> Nom </th>
+                <th> Prénom </th>
+                <th> Matricule </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> RAMANANKIRAHINA </td>
+                    <td> Itokiana </td>
+                    <td> 35 </td>
+                </tr>
+                <tr>
+                    <td> RAMANANKIRAHINA </td>
+                    <td> Itokiana </td>
+                    <td> 35 </td>
+                </tr>
+                <tr>
+                    <td> RAMANANKIRAHINA </td>
+                    <td> Itokiana </td>
+                    <td> 35 </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
