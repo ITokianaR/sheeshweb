@@ -27,6 +27,18 @@
             <button class="btn btn-primary" type="button">Search</button>
         </form>
     </nav>
+    <div class="offcanvas offcanvas-start shadow p-4 mr-4" id="more">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title"> Nos filières </h1>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="bg-primary text-white py-2"> Intégration et développement</p>
+            <p class="bg-primary text-white py-2"> Réseau et Système d'information</p>
+            <p class="bg-primary text-white py-2"> Management des systèmes d'information</p>
+            <p class="bg-primary text-white py-2"> Infrastructure et cybersécurité </p>
+        </div>
+    </div>
     <br>
     <div class="container-fluid sticky-top">
         <div class="alert alert-warning alert-dismissible fade show">
@@ -47,7 +59,7 @@
                     <div class="card-body">
                         <h4> Nos filières </h4>
                         <p> L'ESTI propose de nombreux filières. </p>
-                        <a class="btn btn-primary" href="#">Voir plus</a>
+                        <a class="btn btn-primary" href="#" data-bs-toggle="offcanvas" data-bs-target="#more">Voir plus</a>
                     </div>
                 </div>
             </div>
