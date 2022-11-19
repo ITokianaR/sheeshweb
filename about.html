@@ -8,6 +8,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>About us</title>
 </head>
+<style>
+    .carousel-item:before {
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0,0,0,0.6);
+    }
+    .carousel-item {
+        size : cover;
+        height:91.6vh;
+        position: relative; 
+    }
+</style>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center sticky-top">
         <a class="navbar-brand" href="#">
@@ -35,14 +51,14 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active" > 
-                <img src="./assets/background/etudiant.jpeg" style="position:top" alt="student" class="d-block w-100">
+                <img src="./assets/background/etudiant.jpeg" style="position:bottom top;" alt="student" class="d-block w-100">
                 <div class="carousel-caption">
                     <h3>Location</h3>
                     <p>Antanimena, immeuble CCIA </p>
                 </div>
             </div>
             <div class="carousel-item" > 
-                <img src="./assets/background/class.jpeg" style="position:top" alt="class" class="d-block w-100">
+                <img src="./assets/background/class.jpeg" style="position:bottom top;" alt="class" class="d-block w-100">
                 <div class="carousel-caption">
                     <h3>Contact</h3>
                     <p>Facebook, Linkedin </p>
